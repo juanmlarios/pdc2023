@@ -1,0 +1,5 @@
+export enum CONSTANTS {
+    COSMOS_EVENT_PARTITION_KEY = 'streamId',
+    COSMOS_PROJECTION_PARTITION_KEY = 'tenantId',
+    COSMOS_MEMENTO_PARTITION_KEY = 'tenantId'
+}
